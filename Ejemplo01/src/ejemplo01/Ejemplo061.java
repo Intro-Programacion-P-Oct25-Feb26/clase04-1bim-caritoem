@@ -22,7 +22,10 @@ public class Ejemplo061 {
         String ciclo = "Primer ciclo";
         String asignatura = "Introduccion a la programacion";   
         String paralelo = "A";
-        System.out.printf("Nombre:\n\t%s Apellido:\n\t%s Edad:%s\Direccion:n\nt%s ", nombreEstudiante, apellidoEstudiante);
+        System.out.printf("Nombre:\n\t%s\nApellido:\n\t%s\nEdad:"
+                + "%s\nDireccion:n\n\t%s\nUniversidad:%s\nCiclo: %s\nAsignatura:"
+                + "%s\nParalelo:\n\t%s\n", nombreEstudiante, apellidoEstudiante , edad, 
+                direccion , universidad , ciclo , asignatura , paralelo);
         
         int nacimiento = 1983;
         
