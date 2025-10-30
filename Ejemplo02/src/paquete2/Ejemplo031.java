@@ -20,6 +20,8 @@ public class Ejemplo031 {
         String apellido;
         int nacimiento;
         int ciclo;
+        String direccion;
+        
         System.out.println("Ingrese el nombre del estudiante");
         nombre = entrada.nextLine(); // nextLine: obtiene una cadena ingresada
                                     // por teclado
@@ -32,13 +34,16 @@ public class Ejemplo031 {
         
         System.out.println("Ingrese su ciclo academico en numero");
         ciclo = entrada.nextInt();
+        entrada.nextLine();
+        System.out.println("Ingrese su direccion");
+        direccion = entrada.next();
         
-        System.out.printf("Datos del estudiante\nNombre:    %s\nApellido: +"
-                + "s%\nAño de Nacimiento: %d\nCiclo Académico: %d\n", 
+        System.out.printf("Datos del estudiante\nNombre: %s\nApellido: +"
+                + "s%\nAño de Nacimiento: %d\nCiclo Académico: %d\n %s\ndirección: %s\n", 
                 nombre,
                 apellido,
-                nacimiento);
-                ciclo);
+                nacimiento,
+                ciclo, direccion );
                 
     }
 }
