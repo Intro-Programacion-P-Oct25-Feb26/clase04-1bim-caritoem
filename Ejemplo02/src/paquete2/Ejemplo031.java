@@ -11,7 +11,7 @@ import java.util.Scanner;
  *
  * @author reroes
  */
-public class Ejemplo03 {
+public class Ejemplo031 {
     public static void main(String[] args) {
         // Ingreso de datos por teclado
         // uso de la clase Scanner
